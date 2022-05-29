@@ -6,7 +6,7 @@ export class ProjectList {
 
   constructor(type) {
     this.type = type;
-    this.project = [];
+    this.projects = [];
     const prjItems = document.querySelectorAll(`#${type}-projects li`);
 
     for (const prjItem of prjItems) {
